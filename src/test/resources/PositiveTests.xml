@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="PositiveLogInTestSuite" verbose="1">
+	<parameter name="browser" value="chrome">browser</parameter>
+	<parameter name="osName" value="mac">osName</parameter>
+	
+	<test name="PositiveLogInTest">
+		<classes>
+			<class name="com.herokuapp.theinternet.loginpagetests.PositiveLogInTests" />
+			<class name="com.herokuapp.theinternet.loginpagetests.DropDownTests"></class>
+		</classes>
+	</test>
+	
+</suite>
